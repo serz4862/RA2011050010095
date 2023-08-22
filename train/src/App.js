@@ -22,7 +22,7 @@ function App() {
 //   );
 // }
 
-class App extends react.Component{
+class App extends React.Component{
    render(){
     return <ScheduleComponent>
       <Inject services = {[Day, Week, WorkWeek, Month, Agenda]}/>
