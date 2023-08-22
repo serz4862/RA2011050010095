@@ -1,7 +1,9 @@
 import logo from './logo.svg';
-import './App.css';
+import {scheduleComponent} from '@syncfusion/ej2-react-schedule';
 
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
