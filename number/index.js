@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-
+import data from "data.js";
 
 app.use(express.json());
 
-
+ 
 app.post('/sort', (req, res) => {
     try {
         const numbers = req.body.numbers;
